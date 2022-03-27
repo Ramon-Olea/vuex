@@ -14,7 +14,8 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
           aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+                           <router-link to="/pastelero">PASTELERO</router-link>
+
         </button>
         <h1 style="color: aliceblue;">PASTELERIA CORAZONE</h1>
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -25,6 +26,10 @@
           <li class="nav-item" role="presentation">
          
                    <router-link to="/about">PASTELES</router-link>
+          </li>
+             <li class="nav-item" role="presentation">
+         
+                   <router-link to="/Ingredientes">INGREDIENTES</router-link>
           </li>
           <li class="nav-item" role="presentation">
              <router-link to="/ordenar">ORDENAR</router-link>
@@ -240,7 +245,10 @@
       <br>
   </div>
   </div>
+ <h5 class="text-red h4">Sucursal en Huixquilucan.
 
+          Ponemos a su disposición la dirección y el teléfono en Huixquilucan. Centro Urbano San Fernando S/N, Lote 10,
+          Mz. 2, Colonia la Herradura, Local 10., (01 32455) 5293241 8106.</h5>
 </template>
 
 <script>

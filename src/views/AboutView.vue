@@ -10,10 +10,11 @@
       </div>
     </div> <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
           aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+                           <router-link to="/pastelero">PASTELERO</router-link>
+
         </button>
         <h1 style="color: aliceblue;">PASTELERIA CORAZONE</h1>
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -24,6 +25,10 @@
           <li class="nav-item" role="presentation">
          
                    <router-link to="/about">PASTELES</router-link>
+          </li>
+             <li class="nav-item" role="presentation">
+         
+                   <router-link to="/Ingredientes">INGREDIENTES</router-link>
           </li>
           <li class="nav-item" role="presentation">
              <router-link to="/ordenar">ORDENAR</router-link>
@@ -54,6 +59,22 @@
                 </div>
               </div>
             </div>
+           
+          </div>
+        </div>
+        <BR></BR>
+          <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="../../pasltel4.jpeg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">PASTEL ROSE</h4>
+                  <p class="card-text">$ 800</p>
+                  <a href="#" class="btn btn-primary">ORDENAR</a>
+                </div>
+              </div>
+            </div>
             <div class="col-sm">
               <div class="card" style="width:400px">
                 <img class="card-img-top" src="../../pastel6.jpeg" alt="Card image">
@@ -66,7 +87,6 @@
             </div>
           </div>
         </div>
-        <BR></BR>
         <hr>
         <div class="container">
           <div class="row">
@@ -90,72 +110,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm">
-              <div class="card" style="width:400px">
-                <img class="card-img-top" src="../../pasltel4.jpeg" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title">PASTEL ROSE</h4>
-                  <p class="card-text">$ 800</p>
-                  <a href="#" class="btn btn-primary">ORDENAR</a>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
         <br>
-        <hr><br>
-        <h1 class="text-center">INGREDIENTES DE PASTELES</h1>
-        <table class="table">
-          <thead class="thead-dark">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">INGREDIENTES</th>
-              <th scope="col">PRECIO</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>NUBES DE GOLOCINA</td>
-              <td> + $10</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>FERRERO</td>
-              <td>+ $20</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>FLORES DE AZUCAER</td>
-              <td>+30</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>FLORES DE AZUCAE</td>
-              <td>+30</td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td>MARIPOSAS DE AZUCAE</td>
-              <td>+20</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>BOMBONES</td>
-              <td>+10</td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>FRESAS</td>
-              <td>+15</td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>CHOCOLATES</td>
-              <td>+30</td>
-            </tr>
-          </tbody>
-        </table>
+       
 </template>
 <script>
 
