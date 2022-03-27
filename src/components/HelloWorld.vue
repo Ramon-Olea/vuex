@@ -19,20 +19,19 @@
         <h1 style="color: aliceblue;">PASTELERIA CORAZONE</h1>
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-              type="button" role="tab" aria-controls="pills-home" aria-selected="true">INICIO</button>
+           
+                   <router-link to="./">INICIO</router-link>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">PASTELES</button>
+         
+                   <router-link to="/about">PASTELES</router-link>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">ORDENAR</button>
+             <router-link to="/ordenar">ORDENAR</router-link>
+
           </li>
         </ul>
       </div>
-
     </nav>
     <br>
 

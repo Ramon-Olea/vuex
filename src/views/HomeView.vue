@@ -6,10 +6,11 @@
 
 <script>
 // @ is an alias to /src
-import '@popperjs/core';
+
 
 
 import HelloWorld from '@/components/HelloWorld.vue'
+import '@popperjs/core';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 const $ = require('jquery')

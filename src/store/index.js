@@ -1,8 +1,6 @@
 import { createStore } from 'vuex'
-import Vue from 'vue'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import { createPopper } from '@popperjs/core';
-
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 export default createStore({
   state: {
   },
